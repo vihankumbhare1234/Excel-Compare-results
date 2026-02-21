@@ -4,7 +4,7 @@ import ColumnSelector from "./components/ColumnSelector.jsx";
 import PaginatedResults from "./components/PaginatedResults.jsx";
 import { readExcelFile, exportNotCommonToExcel } from "./utils/excel.js";
 import { compareNotCommon } from "./utils/compare.js";
-
+// Main App Component
 export default function App() {
   const [fileA, setFileA] = useState(null);
   const [fileB, setFileB] = useState(null);
